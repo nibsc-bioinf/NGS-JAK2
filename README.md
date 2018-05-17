@@ -62,6 +62,6 @@ python mutation_context.py
 ```
 
 # plot_data.R
-This script performs the analysis on the TSV file produced by the previous script. The plot_data.R script calculated the T allele percentage in the samples whilst changing the constraints each time. The script currently adjusts the minimum allowed distance of the mutation site from the start or end of the read. This can be adjusted by the user to explore the effect of adjusting different parameters.
+This script performs the analysis on the TSV file produced by the previous script. The plot_data.R script calculates the T allele percentage in the samples whilst changing the constraints each time. The script currently adjusts the minimum allowed distance of the mutation site from the start or end of the read. This can be adjusted by the user to explore the effect of adjusting different parameters.
 
 The script then outputs plots for the T allele percentages, the counts of the minor allele (G or T) and the total read count for each sample.
